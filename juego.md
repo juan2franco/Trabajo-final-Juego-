@@ -7,15 +7,24 @@
 Codigo
 
 
+
+
 #include <iostream>
+
 #include <vector>
+
 #include <cstdlib>
+
 #include <ctime>
+
 #include <chrono>
+
 using namespace std;
 
 
-void generarPregunta(int nivel, int &respuestaCorrecta, string &pregunta) {
+void generarPregunta(int nivel, int &respuestaCorrecta, string &pregunta)
+{
+    
     int a, b, op;
     a = rand() % (10 * nivel) + 1;
     b = rand() % (10 * nivel) + 1;
